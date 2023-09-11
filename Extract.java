@@ -9,6 +9,9 @@ public class Extract {
         this.value = value;
     }
 
+    /*
+     * @return boolean
+     */
     public boolean hasNext() {
         if (current < value.length()) {
             return true;
